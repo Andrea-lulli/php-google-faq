@@ -55,13 +55,7 @@ $arrayDomande = [
     ],
 
 ];
-
-
 ?>
-
-
-
-
 
 
 <!DOCTYPE html>
@@ -88,7 +82,6 @@ $arrayDomande = [
 
 <body>
 
-
     <header class="fixed pt-3">
         <div class="d-flex m-1 justify-content-between">
             <!-- logo lat sx -->
@@ -113,14 +106,10 @@ $arrayDomande = [
                 <div class="col-2 rounded-circle bg-light">
                     <i class="fa-solid fa-user rounded-circle bg-secondary p-2"></i>
                 </div>
-
-
             </div>
-
         </div>
 
         <nav class="mt-2 nav ">
-
             <div class="d-flex text-secondary ms-1 ">
                 <li class=" lista">
                     Introduzione
@@ -138,16 +127,8 @@ $arrayDomande = [
                     Domande frequenti
                 </li>
             </div>
-
         </nav>
-
-
-
-
-
     </header>
-
-
 
     <!-- main -->
     <main class="conteiner">
@@ -161,7 +142,6 @@ $arrayDomande = [
             <?php echo $element['risposte']; ?>
         </p>
         <?php } ?>
-
     </main>
 
     <footer class="p-3 footer">
@@ -179,23 +159,16 @@ $arrayDomande = [
                 <li class="mx-2 lista">
                     Terrmini
                 </li>
-
             </div>
-
 
             <div class="col-2">
                 <select class="form-select" aria-label="Default select example">
-                    
                     <option value="1">Italiano</option>
                     <option value="2">Inglese</option>
                     <option value="3">Francese</option>
                 </select>
-
-
             </div>
-
         </div>
-
     </footer>
 
     <!-- script Bootstrap-->
@@ -203,5 +176,4 @@ $arrayDomande = [
         integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
         crossorigin="anonymous"></script>
 </body>
-
 </html>
