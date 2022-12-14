@@ -4,8 +4,13 @@
 
 .conteiner{
     margin: 0 auto;
-    width: 65%;
-    padding-top: 50px;
+    width: 75%;
+    padding-top: 180px;
+}
+
+.conteiner-ft{
+    margin: 0 auto;
+    width: 75%;
 }
 
 .lista{
@@ -20,4 +25,14 @@
 
 .nav{
     border-bottom: 1px solid #CBCBCB;
+}
+.fixed{
+    position: fixed;
+    background-color: white;
+    width: 100%;
+
+}
+
+.footer{
+    background-color: #F5F5F5;
 }

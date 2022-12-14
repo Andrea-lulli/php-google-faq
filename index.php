@@ -89,9 +89,8 @@ $arrayDomande = [
 <body>
 
 
-    <header class="d-flex m-1">
-        <div class="col-12 d-flex justify-content-between align-items-center">
-
+    <header class="fixed pt-3">
+        <div class="d-flex m-1 justify-content-between">
             <!-- logo lat sx -->
             <div class="col-3 d-flex align-items-center justify-content-between ">
                 <div class="col-3">
@@ -115,44 +114,48 @@ $arrayDomande = [
                     <i class="fa-solid fa-user rounded-circle bg-secondary p-2"></i>
                 </div>
 
-            </div>
 
             </div>
-           
 
-        
+        </div>
+
+        <nav class="mt-2 nav ">
+
+            <div class="d-flex text-secondary ms-1 ">
+                <li class=" lista">
+                    Introduzione
+                </li>
+                <li class="mx-3 lista">
+                    Norme sulla privacy
+                </li>
+                <li class="mx-3 lista">
+                    Termini di servizio
+                </li>
+                <li class="mx-3 lista">
+                    Tecnologie
+                </li>
+                <li class="active mx-3 lista">
+                    Domande frequenti
+                </li>
+            </div>
+
+        </nav>
+
+
+
+
 
     </header>
-    <nav class="mt-2 nav">
-                
-                    <div class="d-flex text-secondary ms-1 ">
-                        <li class=" lista">
-                            Introduzione
-                        </li>
-                        <li class="mx-2 lista">
-                            Norme sulla privacy
-                        </li>
-                        <li class="mx-2 lista">
-                            Termini di servizio
-                        </li>
-                        <li class="mx-2 lista">
-                            Tecnologie
-                        </li>
-                        <li class="active mx-2 lista">
-                            Domande frequenti
-                        </li>
-                    </div>
-                
-            </nav>
+
 
 
     <!-- main -->
     <main class="conteiner">
         <?php foreach ($arrayDomande as $element) { ?>
 
-        <h3>
+        <h4>
             <?php echo $element['domande']; ?>
-        </h3>
+        </h4>
 
         <p class="mt-3 mb-5">
             <?php echo $element['risposte']; ?>
@@ -161,14 +164,33 @@ $arrayDomande = [
 
     </main>
 
-    <footer>
-        <div>
-            <div>
+    <footer class="p-3 footer">
+        <div class="d-flex justify-content-between conteiner-ft  ">
+            <div class="d-flex text-secondary ms-1 col-6 align-items-center ">
+                <li class=" lista">
+                    Google
+                </li>
+                <li class="mx-2 lista">
+                    Tutto su Google
+                </li>
+                <li class="mx-2 lista">
+                    Privacy
+                </li>
+                <li class="mx-2 lista">
+                    Terrmini
+                </li>
 
             </div>
 
 
-            <div>
+            <div class="col-2">
+                <select class="form-select" aria-label="Default select example">
+                    
+                    <option value="1">Italiano</option>
+                    <option value="2">Inglese</option>
+                    <option value="3">Francese</option>
+                </select>
+
 
             </div>
 
