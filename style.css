@@ -36,3 +36,10 @@
 .footer{
     background-color: #F5F5F5;
 }
+
+.form-select{
+    padding: 0 ;
+    padding-left: 5px;
+    border: 2px solid black;
+}
+
