@@ -97,13 +97,13 @@ $arrayDomande = [
             </div>
 
             <!-- lat-dx -->
-            <div class="col-3 d-flex justify-content-end">
+            <div class="col-3 d-flex justify-content-end align-items-center">
 
-                <div class="col-2">
+                <div class="col-2 text-center">
                     <i class="fa-solid fa-bars"></i>
                 </div>
 
-                <div class="col-2 rounded-circle bg-light">
+                <div class="col-2 rounded-circle bg-light text-center">
                     <i class="fa-solid fa-user rounded-circle bg-secondary p-2"></i>
                 </div>
             </div>
@@ -147,22 +147,22 @@ $arrayDomande = [
     <footer class="p-3 footer">
         <div class="d-flex justify-content-between conteiner-ft  ">
             <div class="d-flex text-secondary ms-1 col-6 align-items-center ">
-                <li class=" lista">
+                <li class=" lista fs-ft">
                     Google
                 </li>
-                <li class="mx-2 lista">
+                <li class="mx-2 lista fs-ft">
                     Tutto su Google
                 </li>
-                <li class="mx-2 lista">
+                <li class="mx-2 lista fs-ft">
                     Privacy
                 </li>
-                <li class="mx-2 lista">
+                <li class="mx-2 lista fs-ft">
                     Terrmini
                 </li>
             </div>
 
             <div class="col-2">
-                <select class="form-select" aria-label="Default select example">
+                <select class="form-select fs-ft" aria-label="Default select example">
                     <option value="1">Italiano</option>
                     <option value="2">Inglese</option>
                     <option value="3">Francese</option>
