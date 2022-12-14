@@ -1,0 +1,23 @@
+.logo{
+     width: 100%; 
+}
+
+.conteiner{
+    margin: 0 auto;
+    width: 65%;
+    padding-top: 50px;
+}
+
+.lista{
+    list-style: none;
+    color: #5F6368;
+}
+
+.active{
+    border-bottom: 4px solid #3367D6;
+    padding-bottom: 10px;
+}
+
+.nav{
+    border-bottom: 1px solid #CBCBCB;
+}
